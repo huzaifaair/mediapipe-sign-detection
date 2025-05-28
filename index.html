@@ -18,13 +18,14 @@
       display: none;
     }
     canvas#output_canvas {
-      width: 100vw;
-      height: 100vh;
-      max-width: 100%;
-      max-height: 100%;
-      background-color: #3b373b;
-      display: block;
-      }
+  width: 100vw;
+  height: 70vh;               /* ⬅️ 70% of viewport height */
+  max-width: 100%;
+  max-height: 70vh;           /* ⬅️ Ensure it doesn’t exceed 70% */
+  background-color: #3b373b;
+  display: block;
+  margin: 0 auto;             /* ⬅️ Center horizontally if needed */
+}
       html, body {
       margin: 0;
       padding: 0;
